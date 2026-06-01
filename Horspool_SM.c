@@ -9,7 +9,7 @@ void shifttable(char p[10])
     m=strlen(p);
     for(i=0;i<SIZE;i++)
         Table[i]=m;
-    for(i=0;i<m-2;i++)
+    for(i=0;i<=m-2;i++)
         Table[p[i]]=m-1-i;
 }
 int Horspool(char T[50],char p[10])
